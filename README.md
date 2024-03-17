@@ -22,16 +22,19 @@ Create a mount point in your HTML:
 ### 2) Mount Component
 Mount a Svelte component:
 ```
-import mount from "svelte-mounter";
+import svelteMounter from "svelte-mounter";
 import MyComponent from "./MyComponent.svelte";
 
-mount("js-svelte-mount", MyComponent);
+svelteMounter("js-svelte-mount", MyComponent);
 ```
 
 ## Contribute
 https://github.com/geo4orce/svelte-mounter
 
 # Releases
+
+## v2.1
+Expected default name in the example
 
 ## v2.0
 Swapped Cmp and mount - because mount can be implied.
