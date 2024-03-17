@@ -1,7 +1,7 @@
 /**
- * Mount your Svelte component to the given DOM element by ID
+ * Mount a Svelte component to the given DOM element
  */
-export default (mount, Cmp) => {
+export default (Cmp, mount) => {
     if (!mount) {
         console.warn('Svelte-Mounter :: Bad mount:', mount);
         return;

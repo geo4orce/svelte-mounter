@@ -1,11 +1,15 @@
 # svelte-mounter
-Mount a Svelte component to a DOM element using Webpack.
+Mount a Svelte component to a DOM element
 
 ## Install
-`npm i svelte svelte-loader svelte-mounter`
+* `npm i svelte-mounter`
+
+Ensure you already have:
+* `npm i svelte`
+* `npm i svelte svelte-loader`
 
 ## Config
-See the [webpack settings here](https://github.com/sveltejs/svelte-loader)
+See the [webpack settings here](https://github.com/sveltejs/svelte-loader).
 
 ## Example
 
@@ -26,3 +30,11 @@ mount("js-svelte-mount", MyComponent);
 
 ## Contribute
 https://github.com/geo4orce/svelte-mounter
+
+# Releases
+
+## v2.0
+Swapped Cmp and mount - because mount can be implied.
+
+## v1.0
+Init idea
