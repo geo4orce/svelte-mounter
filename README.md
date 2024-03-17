@@ -11,6 +11,9 @@ Ensure you already have:
 ## Config
 See the [webpack settings here](https://github.com/sveltejs/svelte-loader).
 
+## Test
+Jest `npm test`
+
 ## Example
 
 ### 1) Mount Point
@@ -32,6 +35,9 @@ svelteMounter("js-svelte-mount", MyComponent);
 https://github.com/geo4orce/svelte-mounter
 
 # Releases
+
+## v2.2
+Add tests
 
 ## v2.1
 Expected default name in the example
