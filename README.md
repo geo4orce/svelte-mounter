@@ -36,10 +36,10 @@ https://github.com/geo4orce/svelte-mounter
 
 # Releases
 
-## v2.2
+## v2.0.4
 Add tests
 
-## v2.1
+## v2.0.1
 Expected default name in the example
 
 ## v2.0
